@@ -17,3 +17,16 @@
     width: 30px;
     cursor: pointer;
 }
+
+.footer ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.copyright-text{
+    color: grey;
+    font-size: 14 px;
+}
