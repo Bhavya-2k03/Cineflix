@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bhavya-2k03.github.io/",
+  "homepage": "https://bhavya-2k03.github.io/Netflix-Clone",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
