@@ -6,7 +6,7 @@
   "homepage": "https://bhavya-2k03.github.io/",
 
   "scripts": {
-    "predeploy": "npm run build && npm run dev",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
