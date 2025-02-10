@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import  './TitleCards.css'
 import cards_data from '../../assets/cards/Cards_data.js'
 import { Link } from 'react-router-dom';
 
 const TitleCards = ({title,category}) => {
-
   const [apiData, setApiData]= useState([]);
+  const cardsRef=useRef();
+  
   const options = {
     method: 'GET',
     headers: {
@@ -13,19 +14,27 @@ const TitleCards = ({title,category}) => {
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMTFkYmVmMGNlZDhmNzk2NzIyNzlhODg1MGYxZGI2MiIsIm5iZiI6MTczOTEwNTIzNy40MDgsInN1YiI6IjY3YThhM2Q1NThkOTNjZWZlZGM4ZGUzMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Pd7bvoaef5rroy87FFJQPx0b93CWsaSp7YfXwsPb0f0'
     }
   };
+  
+  const handleWheel=(event)=>{
+    event.preventDefault();
+    cardsRef.current.scrollLeft+=event.deltaY;
+  }
+  
 
   useEffect(()=>{
     fetch(`https://api.themoviedb.org/3/movie/${category}?language=en-US&page=1`, options)
       .then(res => res.json())
       .then(res => setApiData(res.results))
       .catch(err => console.error(err));
+      cardsRef.current.addEventListener('wheel',handleWheel);
   },[])
-
+  
+  
 
   return (
     <div className='title-cards'>
         <h2>{title}</h2>
-        <div className="card-list">
+        <div className="card-list" ref={cardsRef}>
           {
             apiData.map((card,index)=>{
               return <Link to={`/player/${card.id}`} className='card' key={index}>
