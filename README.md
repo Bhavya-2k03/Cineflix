@@ -12,7 +12,7 @@
 ✅ **User Authentication** – Sign up, log in, and log out with **Firebase Authentication**.  
 ✅ **Movie Database Integration** – Fetches real-time movie data using the **TMDB API**.  
 ✅ **Responsive UI** – Optimized for both desktop and mobile devices.  
-✅ **Hosted on GitHub Pages** – The project is deployed using the `gh-pages` branch. 
+✅ **Hosted on GitHub Pages** – The project is deployed using the `gh-pages` branch.   
 ✅ **Interactive Pages** – Includes a **Home Page, Sign Up / Log In Page, and Video Player Page**.  
 
 ---
