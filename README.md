@@ -27,7 +27,7 @@
 
 ---
 ## **📂 Project Structure**  
-Cineflix/
+Cineflix/  
 │── dist/ 
 │── public/             
 │── src/
