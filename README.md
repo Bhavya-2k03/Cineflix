@@ -28,9 +28,9 @@
 ---
 ## **📂 Project Structure**  
 Cineflix/  
-│── dist/ 
-│── public/             
-│── src/
+│── dist/   
+│── public/               
+│── src/  
 │   ├── components/     
 │   ├── pages/          
 │   ├── assets/         
