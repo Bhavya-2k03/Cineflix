@@ -45,3 +45,9 @@ Cineflix/
 │── package-lock.json  
 │── README.md  
 
+---
+## **🚀 Getting Started**
+### **1️⃣ Clone the Repository** 
+ ```sh
+   git clone https://github.com/Bhavya-2k03/Cineflix.git
+   cd Cineflix
