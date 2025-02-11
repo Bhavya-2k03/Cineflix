@@ -1,7 +1,7 @@
 
 # **Cineflix 🎬**  
 
-🚀 A sleek and responsive movie streaming platform with **Firebase Authentication** and **TMDB API integration** to fetch movie details.  
+A responsive movie streaming platform with **Firebase Authentication** and **TMDB API integration** to fetch movie details.  
 
 🔗 **Live Demo:** [Cineflix](https://bhavya-2k03.github.io/Cineflix/#/)  
 
