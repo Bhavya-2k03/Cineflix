@@ -37,11 +37,11 @@ Cineflix/
 │   ├── firebase.js     
 │   ├── App.jsx         
 │   ├── main.jsx       
-│   ├── index.css
-│── index.html
-│── vite.config.js
-│── .gitignore
-│── package.json
-│── package-lock.json
-│── README.md
+│   ├── index.css  
+│── index.html  
+│── vite.config.js  
+│── .gitignore  
+│── package.json  
+│── package-lock.json  
+│── README.md  
 
