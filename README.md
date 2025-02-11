@@ -51,9 +51,12 @@ Cineflix/
  ```sh
    git clone https://github.com/Bhavya-2k03/Cineflix.git
    cd Cineflix
+```
 ### **2️⃣ Install dependencies**
 ```sh
     npm install
+```
 ### **3️⃣ Run the Project**
 ```sh
     npm run dev
+```
