@@ -60,3 +60,15 @@ Cineflix/
 ```sh
     npm run dev
 ```
+## **📌 Updating and Deploying Changes**
+If you make any changes to the project and want to deploy them, follow these steps:  
+```sh
+npm run build 
+
+git subtree split --prefix dist main -b gh-pages-temp
+git push origin gh-pages-temp:gh-pages --force 
+git branch -D gh-pages-temp    
+
+npm run deploy  
+```
+
