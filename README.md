@@ -12,15 +12,36 @@
 ✅ **User Authentication** – Sign up, log in, and log out with **Firebase Authentication**.  
 ✅ **Movie Database Integration** – Fetches real-time movie data using the **TMDB API**.  
 ✅ **Responsive UI** – Optimized for both desktop and mobile devices.  
+✅ **Hosted on GitHub Pages** – The project is deployed using the `gh-pages` branch. 
 ✅ **Interactive Pages** – Includes a **Home Page, Sign Up / Log In Page, and Video Player Page**.  
 
 ---
 
 ## **🖥️ Tech Stack**  
 
-- **Frontend:** React, React Router  
+- **Frontend:** React, Vite  
 - **Backend & Auth:** Firebase Authentication  
 - **API Integration:** TMDB API  
-- **Styling:** CSS  
+- **Styling:** CSS
+- **Hosting:** GitHub Pages (`gh-pages` branch)  
 
 ---
+## **📂 Project Structure**  
+Cineflix/
+│── dist/ 
+│── public/             
+│── src/
+│   ├── components/     
+│   ├── pages/          
+│   ├── assets/         
+│   ├── firebase.js     
+│   ├── App.jsx         
+│   ├── main.jsx       
+│   ├── index.css
+│── index.html
+│── vite.config.js
+│── .gitignore
+│── package.json
+│── package-lock.json
+│── README.md
+
