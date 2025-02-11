@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **Cineflix 🎬**  
 
-Currently, two official plugins are available:
+🚀 A sleek and responsive movie streaming platform with **Firebase Authentication** and **TMDB API integration** to fetch movie details.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [Cineflix](https://bhavya-2k03.github.io/Cineflix/#/)  
+
+---
+
+## **📌 Features**  
+
+✅ **User Authentication** – Sign up, log in, and log out with **Firebase Authentication**.  
+✅ **Movie Database Integration** – Fetches real-time movie data using the **TMDB API**.  
+✅ **Responsive UI** – Optimized for both desktop and mobile devices.  
+✅ **Interactive Pages** – Includes a **Home Page, Sign Up / Log In Page, and Video Player Page**.  
+
+---
+
+## **🖥️ Tech Stack**  
+
+- **Frontend:** React, React Router  
+- **Backend & Auth:** Firebase Authentication  
+- **API Integration:** TMDB API  
+- **Styling:** CSS  
+
+---
